@@ -1,0 +1,12 @@
+# EconData Pipeline Dependencies
+
+# Data processing
+pandas>=2.0.0
+pyarrow>=14.0.0
+numpy>=1.24.0
+
+# R2 upload (optional - only needed for --upload flag)
+boto3>=1.34.0
+
+# API access
+requests>=2.31.0
