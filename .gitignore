@@ -1,0 +1,20 @@
+# Secrets / env
+.env
+
+# Data outputs (live on Dropbox, not in git)
+*.csv
+*.xlsx
+*.xlsm
+*.xls
+*.parquet
+data/
+outputs/
+
+# Derived reference lookup (regenerated from the Census CBSA file)
+cbsa_types.json
+
+# Python / OS cruft
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
