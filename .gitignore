@@ -1,12 +1,14 @@
 # Secrets / env
 .env
 
-# Data outputs (live on Dropbox, not in git)
+# Data inputs (live on Dropbox, not in git)
+# NOTE: *.parquet is intentionally NOT ignored — this repo distributes the
+# aggregated parquets via raw.githubusercontent.com URLs to downstream apps,
+# so they must stay tracked on master.
 *.csv
 *.xlsx
 *.xlsm
 *.xls
-*.parquet
 data/
 outputs/
 
